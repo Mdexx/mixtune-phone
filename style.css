@@ -26,3 +26,10 @@ p { color:#ccc; }
 .btn:active { transform:scale(.98); }
 .spinner { width:36px; height:36px; margin:80px auto; border:3px solid var(--line); border-top-color:var(--accent); border-radius:50%; animation:s 0.9s linear infinite; }
 @keyframes s { to { transform:rotate(360deg); } }
+.code { border-radius: 16px; padding: 12px 14px; margin-bottom: 14px; }
+.code.ok { background: #1f3329; border: 1px solid #2ec08b; }
+.code.ok .word { font-size: 22px; font-weight: 800; color: #9be3c3; margin: 2px 0 4px; word-break: break-word; }
+.code.bad { background: #3a2326; border: 1px solid var(--red); color: #ffd0d0; }
+.code.bad p { color: #ffd0d0; margin: 6px 0; }
+.inp { flex: 2; width: 100%; background: #1c1c1e; border: 1px solid var(--line); border-radius: 12px; padding: 12px; color: var(--text); font-size: 16px; }
+.btn.small { flex: 1; padding: 12px; font-size: 14px; margin-top: 0; }
